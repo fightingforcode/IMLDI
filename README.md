@@ -9,7 +9,7 @@ An interpretable multi-label mRNA subcellular localization predictor with the ab
 |DNAbert2_attention
 |---- bert_layers.py
 |---- bert_padding.py
-|----pytorch_model
+|----pytorch_model.bin
 |---- ...
 ```
 
@@ -22,6 +22,10 @@ python scripts/embedding.py
 ### Requirements
 ```
 torch >= 1.12.0
+transformers=4.41.2
+scikit-learn=1.5.0
+captum=0.7.0
+biopython=1.83
 ```
 
 ### Training
