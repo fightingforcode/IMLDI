@@ -45,3 +45,8 @@ Pre-trained models are available in [link](https://pan.seu.edu.cn:443/link/524D2
 ```bash
 python evaluate.py
 ```
+### Prediction pipline
+Suppose you want to indentfy the subcellular localization of mRNA sequences, you could
+```bash
+python pipeline.py 
+```
