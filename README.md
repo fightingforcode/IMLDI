@@ -41,7 +41,7 @@ bash run_crossval.sh
 ```
 ### Evaluation
 
-Pre-trained models are available in [link](https://pan.seu.edu.cn:443/link/524D2C7E5F89C0B2017AF5A746BD84BC).
+Pre-trained models named exp10 are available in [link](https://pan.seu.edu.cn:443/link/524D2C7E5F89C0B2017AF5A746BD84BC).
 ```bash
 python evaluate.py
 ```
