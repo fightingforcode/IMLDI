@@ -1,7 +1,7 @@
 # IMLDI
 An interpretable multi-label mRNA subcellular localization predictor with the ability to handle label relevance and imbalance
 ### Data Preparation
-1. Download mRNA dataset and DNAbert2_attention organize them as follow:
+1. Download mRNA dataset and DNAbert2_attention in [link](https://pan.seu.edu.cn:443/link/524D2C7E5F89C0B2017AF5A746BD84BC) organize them as follow:
 ```
 |dataset
 |---- training_validation.fasta
@@ -41,7 +41,7 @@ bash run_crossval.sh
 ```
 ### Evaluation
 
-Pre-trained models are available in [link](https://pan.seu.edu.cn:443/link/524D2C7E5F89C0B2017AF5A746BD84BC). Download and put them in the `experiments` folder, then one can use following commands to reproduce results reported in paper.
+Pre-trained models are available in [link](https://pan.seu.edu.cn:443/link/524D2C7E5F89C0B2017AF5A746BD84BC).
 ```bash
 python evaluate.py
 ```
