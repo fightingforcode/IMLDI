@@ -10,7 +10,7 @@ import numpy as np
 __all__ = ['mlic']
 
 
-class MLIC(nn.Module):
+class IMLDI(nn.Module):
     def __init__(self, backbone, feat_dim, cfg):
         super().__init__()
         self.cfg = cfg
@@ -77,7 +77,7 @@ class MLIC(nn.Module):
 @register_model
 def mlic(cfg):
     backbone, feat_dim = create_backbone(cfg.arch)
-    model = MLIC(backbone, feat_dim, cfg)
+    model = IMLDI(backbone, feat_dim, cfg)
     return model
 
 
