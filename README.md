@@ -7,11 +7,17 @@ An interpretable multi-label mRNA subcellular localization predictor with the ab
 |dataset
 |---- training_validation.fasta
 |---- independent.fasta
+|DNAbert2_attention
+|---- bert_layers.py
+|---- bert_padding.py
+|----pytorch_model
+|---- ...
 ```
 
 2. Preprocess using following commands:
 ```bash
 python scripts/mRNA.py
+python scripts/embedding.py
 ```
 
 ### Requirements
