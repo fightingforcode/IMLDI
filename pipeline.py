@@ -1,10 +1,3 @@
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# Created by: jasonseu
-# Created on: 2022-11-11
-# Email: zhuxuelin23@gmail.com
-#
-# Copyright © 2022 - CPSS Group
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 import os
 
 import numpy as np
