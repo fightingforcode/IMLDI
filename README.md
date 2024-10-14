@@ -34,6 +34,11 @@ One can use following commands to train model and reproduce the results reported
 python train.py 
 ```
 One can add `CUDA_VISIBLE_DEVICES=0,1,2,3` in front of the commands to enable distributed data parallel training with available GPUs.
+### Five-folds evaluation
+```bash 
+python lib/data_crossval.py
+bash run_crossval.sh
+```
 ### Evaluation
 
 Pre-trained models are available in [link](https://pan.seu.edu.cn:443/link/524D2C7E5F89C0B2017AF5A746BD84BC). Download and put them in the `experiments` folder, then one can use following commands to reproduce results reported in paper.
