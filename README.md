@@ -1,5 +1,5 @@
-# IMLDI
-An interpretable multi-label mRNA subcellular localization predictor with the ability to handle label relevance and imbalance
+# RNALocAtt
+An enhanced imbalanced multi-label predictor for mRNA subcellular localization based on attention mechanisms
 ### Data Preparation
 1. Download mRNA dataset and DNAbert2_attention in [link](https://drive.google.com/drive/folders/1D-L1-kJcjiAl4lYxrvl6yNF05CjhsClP) organize them as follow:
 ```
